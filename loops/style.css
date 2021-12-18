@@ -1,0 +1,9 @@
+body {
+	background: lightcoral;
+}
+
+#quadro {
+	border: 1px solid black;
+	width: 800px;
+	margin: auto;
+}

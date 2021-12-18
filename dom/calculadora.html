@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<style>
+		*{
+			font-size: 25px;
+			margin: 0;
+			padding: 0;
+		}
+		#calculadora {
+			border-radius: 8px;
+			border: 2px solid red;
+			width: 370px;
+			height: 470px;
+			margin: 20px;
+		}
+		#entrada {
+			width: 85%;
+			height: 40px;
+			margin: 25px;
+			border-radius: 6px;
+		}
+		#botoes {
+			width: 88%;
+			height: 320px;
+			border: 2px solid black;
+			margin: 25px;
+		}
+		.dois {
+			width: 157px;
+		}
+		.um {
+			width: 72px;
+		}
+		.linhas {
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="calculadora">
+		<input type="text" name="into" id="entrada">
+		<div id="botoes">
+			<div id="primeiro" class="linhas">
+				<button class="dois" type="button">C</button>
+				<button class="um" type="button">/</button>
+				<button class="um"type="button">x</button>
+			</div>
+			<div id="segundo" class="linhas">
+				<button class="um" type="button">7</button>
+				<button class="um" type="button">8</button>
+				<button class="um" type="button">9</button>
+				<button class="um" type="button">-</button>
+			</div>
+			<div id="terceiro" class="linhas">
+				<button class="um" type="button">4</button>
+				<button class="um" type="button">5</button>
+				<button class="um" type="button">6</button>
+				<button class="um" type="button">+</button>
+			</div>
+			<div id="quarto" class="linhas">
+				<button class="um" type="button">7</button>
+				<button class="um" type="button">8</button>
+				<button class="um" type="button">9</button>
+				<button class="um" type="button">-</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

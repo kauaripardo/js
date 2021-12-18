@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Eventos TECLADO</title>
+
+	<script>
+
+		function acao1() {
+			alert('eventos disparado')
+		}
+		
+	</script>
+
+</head>
+<body>
+
+	<!-- executa a funcão ANTES de reproduzir a requisição do teclado
+	<input onkeydown="acao1()" type="text" />
+	-->
+
+	<!-- [ocorrem e https://www.w3schools.com/jsref/jsref_obj_string.aspntre o onkeyup e o onkeydown] Parece com o onkeydown, mas só ocorre se a tecla pressionada representar um caracter
+	<input onkeypress="acao1()" type="text" />
+	-->
+
+
+	<!-- reproduz a requisição do teclado antes de executar a função
+	<input onkeyup="acao1()" type="text" />
+	-->
+
+
+
+</body>
+</html>

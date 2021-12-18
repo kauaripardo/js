@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Eventos FORMULÁRIO</title>
+	<style>
+		#dv1 {
+			border:3px solid black;
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+	<script>
+		function action() {
+			alert('act')
+		}
+		
+		function out() {
+			alert('out')
+		}
+	</script>
+</head>
+<body>
+	<div onmouseout="out()" onmouseover="move()" id="dv1">
+		
+	</div>
+	<select onchange="console.log('Estado modificado')">
+		<option>--Selecione--</option>
+		<option value="1">Primeira opção</option>
+		<option value="2">Segunda opção</option>
+	</select>
+</body>
+</html>
