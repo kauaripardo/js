@@ -1,5 +1,5 @@
 # js
  exercicios de javascript
 
- I am learning to manager my repositories
+ I am learning how to create websites and i am gonna manager my repositories
 
